@@ -1,0 +1,19 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main()
+{
+    float p,r,t,CI;
+    cout<<"Enter the principle ::";
+    cin>>p;
+    cout<<"Enter the rate ::";
+    cin>>r;
+    cout<<"Enter the time ::";
+    cin>>t;
+    
+    CI=p*(pow((1+r/100),t)); 
+     cout<<"\n The calculate Compound is ="<<CI<<"\n";
+
+    return 0;
+}
