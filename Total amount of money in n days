@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int days,per_day;
+    cout<<"Enter The Amount Earned in 1 Day Rs. : ";
+    cin>>per_day;
+    cout<< endl<<"Enter The Days Worked : ";
+    cin>>days;
+    cout<<endl<<"The Total Amount of Money Earned in "<<days<<" days is Rs. "<<days*per_day;
+    return 0;
+}
